@@ -1,0 +1,144 @@
+body {
+font-family: Verdana;
+font-size: 12px;
+font-weight:bold;
+background-color:rgb(95, 87, 87);
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.foto {
+    width: 250px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);;
+    margin-bottom: 10px;
+}
+
+.p {
+    color: #FFF;
+    background-color:lightsalmon;
+    border: 4px solid blueviolet;
+    border-radius: 20px;
+    border-left: 4px solid hotpink;
+    border-right: 4px solid hotpink;
+
+}
+
+.p p {
+    margin-left: 5px;
+}
+.FIO h1 {
+    margin-left: 5px;
+}
+
+
+
+.FIO {
+    color: white;
+    background-color: lightsalmon;
+    border: 4px solid hotpink;
+    border-radius: 20px;
+    border-left: 4px solid blueviolet;
+    border-right: 4px solid blueviolet;
+    margin-bottom: 10px;
+}
+
+.Call h1 {
+    margin-left: 5px;
+    color: white;
+    text-align: center;
+}
+.Call {
+    color:indianred;
+    background-color: lightsalmon;
+    border: 4px solid darkturquoise;
+    border-radius: 20px;
+    border-left: 4px solid hotpink;
+    border-right: 4px solid hotpink;
+    margin-bottom: 10px;
+}
+
+.myhobi h2 {
+    margin-left: 5px;
+}
+.myhobi {
+    background-color: lightsalmon;
+    color: white;
+    border: 4px solid blue;
+    border-radius: 20px;
+    border-left: 4px solid hotpink;
+}
+.table h2 {
+    margin-left: 5px;
+}
+
+.opit {
+    color: #FFF;
+}
+.table {
+    border: 4px solid blue;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    border-left: 4px solid hotpink;
+    border-bottom: 4px solid blueviolet;
+    color: white;
+}
+.table th {
+    color: #fff;
+    padding: 5px 5px;
+}
+.table td {
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+}
+.table td:hover {
+    background: rgb(138, 176, 170);
+}
+.table td:nth-child(2){
+    color:darkred
+}
+
+.forms label {
+    color: white;
+    margin-left: 5px;
+}
+.btn:hover {
+    opacity: 0.8;
+    color: black;
+    background-color: lightcoral ;
+
+}
+
+.btn {
+    border-radius: 5px;
+    cursor: pointer;
+}
+a:active {
+    color: red;
+}
+
+a:visited {
+    color:rgb(143, 112, 208);
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid lightsalmon;
+    padding: 15px 10px;
+    outline: none;
+    font-family: inherit;
+}
